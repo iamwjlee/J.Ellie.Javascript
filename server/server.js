@@ -1,6 +1,7 @@
 var http = require('http'); 
 var url=require('url');
 net = require('net');
+console.log('Hello')
 function start(route, handle) {
     function onRequest(req,res){
         var pathname=url.parse(req.url).pathname;
